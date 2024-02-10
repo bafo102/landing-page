@@ -1,0 +1,154 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /* outline: 1px solid red; */
+}
+
+.section1 {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.header-container-right {
+    display: flex;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-link {
+    padding: 0px 20px;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+img {
+    padding: 0 20px;
+}
+
+.intro-container-left {
+    justify-content: flex-start;
+    width: 400px
+    /* flex-direction: column; */
+}
+
+.intro-container-right {
+    justify-content: center;
+    width: 400px
+}
+
+button {
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+.pic-group1,
+.pic-group2,
+.pic-group3,
+.pic-group4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 15%;
+}
+
+.pic1,
+.pic2,
+.pic3,
+.pic4 {
+    border-radius: 8%
+}
+
+.section3 {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    padding: 70px 220px 0px;
+    padding-bottom: 0px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937
+}
+
+.thor {
+    padding-top: 0px;
+    padding-right: 250px;
+    padding-bottom: 70px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+
+
+.section4 {
+    padding: 70px 200px;
+    color: #F9FAF8;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 8px
+}
+
+h3 {
+    padding-top: 15px;
+}
+
+.sign-up-call {
+    padding-bottom: 15px;
+}
+
+.second-button {
+    border: 2px solid white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 25px
+}
